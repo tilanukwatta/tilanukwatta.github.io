@@ -1,17 +1,19 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="Tilan Ukwatta">
-    <meta name="generator" content="Hugo 0.108.0">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+    <meta name="author" content="Tilan Ukwatta" />
+    <meta name="generator" content="Hugo 0.108.0" />
     <title>Tilan Ukwatta Blog</title>
 
-    <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/blog/">
- 
+    <link
+      rel="canonical"
+      href="https://getbootstrap.com/docs/5.3/examples/blog/"
+    />
 
-<link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
 
     <style>
       .bd-placeholder-img {
@@ -30,10 +32,11 @@
 
       .b-example-divider {
         height: 3rem;
-        background-color: rgba(0, 0, 0, .1);
-        border: solid rgba(0, 0, 0, .15);
+        background-color: rgba(0, 0, 0, 0.1);
+        border: solid rgba(0, 0, 0, 0.15);
         border-width: 1px 0;
-        box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+        box-shadow: inset 0 0.5em 1.5em rgba(0, 0, 0, 0.1),
+          inset 0 0.125em 0.5em rgba(0, 0, 0, 0.15);
       }
 
       .b-example-vr {
@@ -43,7 +46,7 @@
       }
 
       .bi {
-        vertical-align: -.125em;
+        vertical-align: -0.125em;
         fill: currentColor;
       }
 
@@ -66,210 +69,464 @@
       }
     </style>
 
-    
     <!-- Custom styles for this template -->
-    <link href="https://fonts.googleapis.com/css?family=Playfair&#43;Display:700,900&amp;display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css?family=Playfair&#43;Display:700,900&amp;display=swap"
+      rel="stylesheet"
+    />
     <!-- Custom styles for this template -->
-    <link href="css/blog.css" rel="stylesheet">
+    <link href="css/blog.css" rel="stylesheet" />
   </head>
   <body>
-    
-<div class="container">
-  <header class="blog-header lh-1 py-3">
-    <div class="row flex-nowrap justify-content-between align-items-center">
-      <div class="col-4 pt-1">
-        <a class="link-secondary" href="#">Home</a>
-      </div>
-      <div class="col-4 text-center">
-        <a class="blog-header-logo text-dark" href="#">Tilan Ukwatta</a>
-      </div>
-      <div class="col-4 d-flex justify-content-end align-items-center">
-        <!-- <a class="link-secondary" href="#" aria-label="Search">
+    <div class="container">
+      <header class="blog-header lh-1 py-3">
+        <div class="row flex-nowrap justify-content-between align-items-center">
+          <div class="col-4 pt-1">
+            <a class="link-secondary" href="#">Home</a>
+          </div>
+          <div class="col-4 text-center">
+            <a class="blog-header-logo text-dark" href="#">Tilan Ukwatta</a>
+          </div>
+          <div class="col-4 d-flex justify-content-end align-items-center">
+            <!-- <a class="link-secondary" href="#" aria-label="Search">
           <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="mx-3" role="img" viewBox="0 0 24 24"><title>Search</title><circle cx="10.5" cy="10.5" r="7.5"/><path d="M21 21l-5.2-5.2"/></svg>
         </a> -->
-        <a class="btn btn-sm btn-outline-secondary" href="#about">About</a>
+            <a class="btn btn-sm btn-outline-secondary" href="#about">About</a>
+          </div>
+        </div>
+      </header>
+
+      <!-- Google tag (gtag.js) -->
+      <script
+        async
+        src="https://www.googletagmanager.com/gtag/js?id=G-R1EDV87BZM"
+      ></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
+          dataLayer.push(arguments);
+        }
+        gtag("js", new Date());
+
+        gtag("config", "G-R1EDV87BZM");
+      </script>
+
+      <div class="nav-scroller py-1 mb-2">
+        <nav class="nav d-flex justify-content-between">
+          <a class="p-2 link-secondary" href="#timearrow">Astrophysics</a>
+          <a class="p-2 link-secondary" href="#aievolution">Data Science</a>
+          <a class="p-2 link-secondary" href="#quantum_tunnel">Physics</a>
+          <a class="p-2 link-secondary" href="#language_thinking">Philosophy</a>
+          <a class="p-2 link-secondary" href="#">Entrepreneurship</a>
+          <a class="p-2 link-secondary" href="#">Personal Finance</a>
+        </nav>
       </div>
     </div>
-  </header>
 
-  <div class="nav-scroller py-1 mb-2">
-    <nav class="nav d-flex justify-content-between">
-      <a class="p-2 link-secondary" href="#timearrow">Astrophysics</a>
-      <a class="p-2 link-secondary" href="#aievolution">Data Science</a>
-      <a class="p-2 link-secondary" href="#quantum_tunnel">Physics</a>
-      <a class="p-2 link-secondary" href="#language_thinking">Philosophy</a>
-      <a class="p-2 link-secondary" href="#">Entrepreneurship</a>
-      <a class="p-2 link-secondary" href="#">Personal Finance</a>
-    </nav>
-  </div>
-</div>
-
-<main class="container">
-  <div class="p-4 p-md-5 mb-4 rounded text-bg-dark">
-    <div class="col-md-6 px-0">
-      <h1 class="display-4 fst-italic">Why does the Time go forward?</h1>
-      <p class="lead my-3">The question of why the time goes forward is one of the biggest questions in physics. It seems like a simple question but it actually has a lot of complexities. It's been a topic of debate among physicists for centuries.</p>
-      <p class="lead mb-0"><a href="#timearrow" class="text-white fw-bold">Continue reading...</a></p>
-    </div>
-  </div>
-
-  <div class="row mb-2">
-    <div class="col-md-6">
-      <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-        <div class="col p-4 d-flex flex-column position-static">
-          <strong class="d-inline-block mb-2 text-primary">Philosophy</strong>
-          <h3 class="mb-0">Do we need a language to think?</h3>
-          <div class="mb-1 text-muted">September 1, 2022</div>
-          <p class="card-text mb-auto">How the different areas of the brain work together enabling us to think is still a fundamental problem.</p>
-          <a href="#language_thinking" class="stretched-link">Continue reading</a>
+    <main class="container">
+      <div class="p-4 p-md-5 mb-4 rounded text-bg-dark">
+        <div class="col-md-6 px-0">
+          <h1 class="display-4 fst-italic">Why does the Time go forward?</h1>
+          <p class="lead my-3">
+            The question of why the time goes forward is one of the biggest
+            questions in physics. It seems like a simple question but it
+            actually has a lot of complexities. It's been a topic of debate
+            among physicists for centuries.
+          </p>
+          <p class="lead mb-0">
+            <a href="#timearrow" class="text-white fw-bold"
+              >Continue reading...</a
+            >
+          </p>
         </div>
-        <!-- <div class="col-auto d-none d-lg-block">
+      </div>
+
+      <div class="row mb-2">
+        <div class="col-md-6">
+          <div
+            class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative"
+          >
+            <div class="col p-4 d-flex flex-column position-static">
+              <strong class="d-inline-block mb-2 text-primary"
+                >Philosophy</strong
+              >
+              <h3 class="mb-0">Do we need a language to think?</h3>
+              <div class="mb-1 text-muted">September 1, 2022</div>
+              <p class="card-text mb-auto">
+                How the different areas of the brain work together enabling us
+                to think is still a fundamental problem.
+              </p>
+              <a href="#language_thinking" class="stretched-link"
+                >Continue reading</a
+              >
+            </div>
+            <!-- <div class="col-auto d-none d-lg-block">
           <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
         </div> -->
-      </div>
-    </div>
-    <div class="col-md-6">
-      <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-        <div class="col p-4 d-flex flex-column position-static">
-          <strong class="d-inline-block mb-2 text-success">Physics</strong>
-          <h3 class="mb-0">Quantum Time Travel</h3>
-          <div class="mb-1 text-muted">September 9, 2022</div>
-          <p class="mb-auto">Quantum tunneling is a phenomenon in which particles, such as electrons, can pass through a barrier that they would not be able to pass through classically.</p>
-          <a href="#quantum_tunnel" class="stretched-link">Continue reading</a>
+          </div>
         </div>
-        <!-- <div class="col-auto d-none d-lg-block">
+        <div class="col-md-6">
+          <div
+            class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative"
+          >
+            <div class="col p-4 d-flex flex-column position-static">
+              <strong class="d-inline-block mb-2 text-success">Physics</strong>
+              <h3 class="mb-0">Quantum Time Travel</h3>
+              <div class="mb-1 text-muted">September 9, 2022</div>
+              <p class="mb-auto">
+                Quantum tunneling is a phenomenon in which particles, such as
+                electrons, can pass through a barrier that they would not be
+                able to pass through classically.
+              </p>
+              <a href="#quantum_tunnel" class="stretched-link"
+                >Continue reading</a
+              >
+            </div>
+            <!-- <div class="col-auto d-none d-lg-block">
           <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
         </div> -->
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
 
-  <div class="row g-5">
-    <div class="col-md-8">
-      <h3 class="pb-4 mb-4 fst-italic border-bottom">
-        From the Firehose
-      </h3>
+      <div class="row g-5">
+        <div class="col-md-8">
+          <h3 class="pb-4 mb-4 fst-italic border-bottom">From the Firehose</h3>
 
-      <article class="blog-post">
-        <strong class="d-inline-block mb-2 text-primary">Data Science</strong>
-        <h2 class="blog-post-title mb-1" id="aievolution">AI induced Exponential Evolution</h2>
-        <p class="blog-post-meta">April 21, 2024 <a href="#about">Tilan Ukwatta</a></p>
+          <article class="blog-post">
+            <strong class="d-inline-block mb-2 text-primary"
+              >Data Science</strong
+            >
+            <h2 class="blog-post-title mb-1" id="aievolution">
+              AI induced Exponential Evolution
+            </h2>
+            <p class="blog-post-meta">
+              April 21, 2024 <a href="#about">Tilan Ukwatta</a>
+            </p>
 
-        <p>By looking at the history of life on Earth, we could identify evolutionary breakthroughs that resulted in dramatic changes in what I call the <strong>Time Scale of Evolutionary Progress (TSEV)</strong>. TSEV is the time period needed for a significant evolutionary change of life on Earth. When the first multicellular organisms evolved about 600 million years ago, the Time Scale of Evolutionary Progress, <strong>reduced from billions of years to millions of years</strong>. Again, when the process of natural evolution produced intelligent life about 200,000 years ago, the Time Scale of Evolutionary Progress reduced once more <strong>from millions of years to thousands of years</strong>. In my opinion, another reduction in the Time Scale of Evolutionary Progress happened in this century when we invented artificial intelligence (AI) tools such as Large Language Models (LLMs). Even though we may have not developed artificial general intelligence (AGI) yet, I believe it’s not far in the future. This time, the Time Scale of Evolutionary Progress was reduced <strong>from thousands of years to just years</strong>.</p>
+            <p>
+              By looking at the history of life on Earth, we could identify
+              evolutionary breakthroughs that resulted in dramatic changes in
+              what I call the
+              <strong>Time Scale of Evolutionary Progress (TSEV)</strong>. TSEV
+              is the time period needed for a significant evolutionary change of
+              life on Earth. When the first multicellular organisms evolved
+              about 600 million years ago, the Time Scale of Evolutionary
+              Progress,
+              <strong
+                >reduced from billions of years to millions of years</strong
+              >. Again, when the process of natural evolution produced
+              intelligent life about 200,000 years ago, the Time Scale of
+              Evolutionary Progress reduced once more
+              <strong>from millions of years to thousands of years</strong>. In
+              my opinion, another reduction in the Time Scale of Evolutionary
+              Progress happened in this century when we invented artificial
+              intelligence (AI) tools such as Large Language Models (LLMs). Even
+              though we may have not developed artificial general intelligence
+              (AGI) yet, I believe it’s not far in the future. This time, the
+              Time Scale of Evolutionary Progress was reduced
+              <strong>from thousands of years to just years</strong>.
+            </p>
 
-        <p>It is entirely possible when we invent AGI, probably in a few decades, the Time Scale of Evolutionary Progress will reduce again may be from years to days or even minutes or seconds! This indicates life on Earth seems to follow an exponential evolution. In the next phase of the evolution on Earth, it is not clear what would be the role of humans. It is not necessarily bad for humans, but it is highly unlikely that humans will be the dominant contributor to evolutionary progress.</p>
-        
-        <!-- <hr> -->
-      </article>
+            <p>
+              It is entirely possible when we invent AGI, probably in a few
+              decades, the Time Scale of Evolutionary Progress will reduce again
+              may be from years to days or even minutes or seconds! This
+              indicates life on Earth seems to follow an exponential evolution.
+              In the next phase of the evolution on Earth, it is not clear what
+              would be the role of humans. It is not necessarily bad for humans,
+              but it is highly unlikely that humans will be the dominant
+              contributor to evolutionary progress.
+            </p>
 
-      <article class="blog-post">
-        <strong class="d-inline-block mb-2 text-primary">Astrophysics</strong>
-        <h2 class="blog-post-title mb-1" id="timearrow">Why does the Time go forward?</h2>
-        <p class="blog-post-meta">March 3, 2023 <a href="#about">Tilan Ukwatta</a></p>
+            <!-- <hr> -->
+          </article>
 
-        <p>The question of why the time goes forward is one of the biggest questions in physics. It seems like a simple question but it actually has a lot of complexities. It's been a topic of debate among physicists for centuries.</p>
+          <article class="blog-post">
+            <strong class="d-inline-block mb-2 text-primary"
+              >Astrophysics</strong
+            >
+            <h2 class="blog-post-title mb-1" id="timearrow">
+              Why does the Time go forward?
+            </h2>
+            <p class="blog-post-meta">
+              March 3, 2023 <a href="#about">Tilan Ukwatta</a>
+            </p>
 
-        <p>The most likely answer is that time goes forward because of the Big Bang. The Big Bang is the event that started the Universe and it's the reason why time has a direction. The Big Bang created space and time and started the expansion of the Universe. This expansion is what caused time to move in one direction.</p>
-          
-        <p>Another possible explanation is the arrow of time. This is the idea that time has a natural direction due to the increase of entropy in the Universe. Entropy is a measure of disorder and as the Universe expands, entropy increases and thus time moves in one direction.</p>
-          
-        <p>But I believe another possible explanation is related to <strong>Dark Energy</strong>. Dark energy is an unknown form of energy that is thought to be responsible for the accelerated expansion of the Universe. It could be that dark energy is what created the expansion of the Universe and thus the direction of time. </p>
-          
-        <p>Ultimately, the answer to why time goes forward is still a mystery. However, it is likely that the Big Bang, the arrow of time and dark energy all play a role in this phenomenon.</p>
-        <!-- <hr> -->
-      </article>
+            <p>
+              The question of why the time goes forward is one of the biggest
+              questions in physics. It seems like a simple question but it
+              actually has a lot of complexities. It's been a topic of debate
+              among physicists for centuries.
+            </p>
 
-      <article class="blog-post">
-        <strong class="d-inline-block mb-2 text-primary">Physics</strong>
-        <h2 class="blog-post-title mb-1" id="quantum_tunnel">Quantum Time Travel</h2>
-        <p class="blog-post-meta">September 9, 2022 <a href="#about">Tilan Ukwatta</a></p>
+            <p>
+              The most likely answer is that time goes forward because of the
+              Big Bang. The Big Bang is the event that started the Universe and
+              it's the reason why time has a direction. The Big Bang created
+              space and time and started the expansion of the Universe. This
+              expansion is what caused time to move in one direction.
+            </p>
 
-        <p><strong>Quantum tunneling</strong> is a phenomenon in which particles, such as electrons, can pass through a barrier that they would not be able to pass through classically. The particles do this by tunneling through the barrier. This is an interesting phenomenon since it appears to allow particles to move faster than the speed of light.</p>
+            <p>
+              Another possible explanation is the arrow of time. This is the
+              idea that time has a natural direction due to the increase of
+              entropy in the Universe. Entropy is a measure of disorder and as
+              the Universe expands, entropy increases and thus time moves in one
+              direction.
+            </p>
 
-        <p>It is believed that the particles tunnel through the barrier due to the uncertainty principle. This states that the more precisely you know a particle’s position, the less precisely you know its momentum and vice versa. This means that a particle may have enough momentum to tunnel through a barrier, even if it does not have enough energy to go over it classically.</p>
-        
-        <p>If the particle can go through a potential barrier that span across space, <strong>I think it is not unreasonable to imagine that particle could quantum tunnel through a potential barrier that spans through time</strong>. That is particle may be able to tunnel into the past or future. A particle tunneling into the future as well as the spatial potential barrier will look like to us that the particle had exceeded the speed of light while traveling through the spatial barrier. Similarly, we might be able to experimentally show a light photon goes into the past while travelling through certain barriers by observing it travels slower than the speed of light.</p>
-        
-        <p>The implications of this phenomenon are still being studied, but it could have huge implications for our understanding of the universe.</p>        
+            <p>
+              But I believe another possible explanation is related to
+              <strong>Dark Energy</strong>. Dark energy is an unknown form of
+              energy that is thought to be responsible for the accelerated
+              expansion of the Universe. It could be that dark energy is what
+              created the expansion of the Universe and thus the direction of
+              time.
+            </p>
 
-      </article>
+            <p>
+              Ultimately, the answer to why time goes forward is still a
+              mystery. However, it is likely that the Big Bang, the arrow of
+              time and dark energy all play a role in this phenomenon.
+            </p>
+            <!-- <hr> -->
+          </article>
 
-      <article class="blog-post">
-        <strong class="d-inline-block mb-2 text-primary">Philosophy</strong>
-        <h2 class="blog-post-title mb-1" id="language_thinking">Do we need a language to think?</h2>
-        <p class="blog-post-meta">September 1, 2022 <a href="#about">Tilan Ukwatta</a></p>
+          <article class="blog-post">
+            <strong class="d-inline-block mb-2 text-primary">Physics</strong>
+            <h2 class="blog-post-title mb-1" id="quantum_tunnel">
+              Quantum Time Travel
+            </h2>
+            <p class="blog-post-meta">
+              September 9, 2022 <a href="#about">Tilan Ukwatta</a>
+            </p>
 
-        <p>It is generally accepted that we think using the brain by using electrical signals and chemical reactions to interpret, analyze, and store information. This process is highly complex and largely depends on how neurons within the brain communicate with each other. The brain receives and stores information from the environment and produces thoughts and ideas based on this information. Different areas of the brain are responsible for different aspects of thinking, such as language, memory, problem solving, and decision-making.</p>
+            <p>
+              <strong>Quantum tunneling</strong> is a phenomenon in which
+              particles, such as electrons, can pass through a barrier that they
+              would not be able to pass through classically. The particles do
+              this by tunneling through the barrier. This is an interesting
+              phenomenon since it appears to allow particles to move faster than
+              the speed of light.
+            </p>
 
-        <p>How the different areas of the brain work together enabling us to think is still a fundamental problem.  When we think we can hear a voice generated within our body. We know this voice is coming from inside our body because from our other sensors we know that no one is speaking to us from the outside world. This suggests that we need a language to think. This leads to the question how a person thinks if he doesn't know any language. Can we say that born deaf people can't think because they don't know any spoken language? One of the solutions to this question is to assume that these deaf people think by using a sequence of mind images. The existence of mind images is an accepted concept by many researches and we also experience it. </p>
+            <p>
+              It is believed that the particles tunnel through the barrier due
+              to the uncertainty principle. This states that the more precisely
+              you know a particle’s position, the less precisely you know its
+              momentum and vice versa. This means that a particle may have
+              enough momentum to tunnel through a barrier, even if it does not
+              have enough energy to go over it classically.
+            </p>
 
-        <p>So, thinking visually and by using a language seems to be two different ways of thinking. This does not explain how a born deaf and blind person thinks, as they don't have any idea about images and sound. Since our body receives information from the surrounding environment from our five sensors, namely visibility, audibility, smell, taste and touch, <strong>I believe that there are five methods of thinking related to these five sensors.</strong> People who lack one sensor may develop enhanced ability to think using another form of thinking. For example, a born deaf and blind person, may develop an advance way of thinking using sense of touch that is difficult for visual or auditory thinker to understand.</p>
+            <p>
+              If the particle can go through a potential barrier that span
+              across space,
+              <strong
+                >I think it is not unreasonable to imagine that particle could
+                quantum tunnel through a potential barrier that spans through
+                time</strong
+              >. That is particle may be able to tunnel into the past or future.
+              A particle tunneling into the future as well as the spatial
+              potential barrier will look like to us that the particle had
+              exceeded the speed of light while traveling through the spatial
+              barrier. Similarly, we might be able to experimentally show a
+              light photon goes into the past while travelling through certain
+              barriers by observing it travels slower than the speed of light.
+            </p>
 
-      </article>
+            <p>
+              The implications of this phenomenon are still being studied, but
+              it could have huge implications for our understanding of the
+              universe.
+            </p>
+          </article>
 
-      <!-- <nav class="blog-pagination" aria-label="Pagination">
+          <article class="blog-post">
+            <strong class="d-inline-block mb-2 text-primary">Philosophy</strong>
+            <h2 class="blog-post-title mb-1" id="language_thinking">
+              Do we need a language to think?
+            </h2>
+            <p class="blog-post-meta">
+              September 1, 2022 <a href="#about">Tilan Ukwatta</a>
+            </p>
+
+            <p>
+              It is generally accepted that we think using the brain by using
+              electrical signals and chemical reactions to interpret, analyze,
+              and store information. This process is highly complex and largely
+              depends on how neurons within the brain communicate with each
+              other. The brain receives and stores information from the
+              environment and produces thoughts and ideas based on this
+              information. Different areas of the brain are responsible for
+              different aspects of thinking, such as language, memory, problem
+              solving, and decision-making.
+            </p>
+
+            <p>
+              How the different areas of the brain work together enabling us to
+              think is still a fundamental problem. When we think we can hear a
+              voice generated within our body. We know this voice is coming from
+              inside our body because from our other sensors we know that no one
+              is speaking to us from the outside world. This suggests that we
+              need a language to think. This leads to the question how a person
+              thinks if he doesn't know any language. Can we say that born deaf
+              people can't think because they don't know any spoken language?
+              One of the solutions to this question is to assume that these deaf
+              people think by using a sequence of mind images. The existence of
+              mind images is an accepted concept by many researches and we also
+              experience it.
+            </p>
+
+            <p>
+              So, thinking visually and by using a language seems to be two
+              different ways of thinking. This does not explain how a born deaf
+              and blind person thinks, as they don't have any idea about images
+              and sound. Since our body receives information from the
+              surrounding environment from our five sensors, namely visibility,
+              audibility, smell, taste and touch,
+              <strong
+                >I believe that there are five methods of thinking related to
+                these five sensors.</strong
+              >
+              People who lack one sensor may develop enhanced ability to think
+              using another form of thinking. For example, a born deaf and blind
+              person, may develop an advance way of thinking using sense of
+              touch that is difficult for visual or auditory thinker to
+              understand.
+            </p>
+          </article>
+
+          <!-- <nav class="blog-pagination" aria-label="Pagination">
         <a class="btn btn-outline-primary rounded-pill" href="#">Older</a>
         <a class="btn btn-outline-secondary rounded-pill disabled">Newer</a>
       </nav> -->
-
-    </div>
-
-    <div class="col-md-4">
-      <div class="position-sticky" style="top: 2rem;">
-        <div class="p-4 mb-3 bg-light rounded">
-          <h4 class="fst-italic" id="about">About</h4>
-          <p class="mb-0"> Hi, I am an astrophysicist, data scientist, and entrepreneur with a strong interest in fundamental problems in physics and artificial general intelligence. Here, on this website, I keep a chronological record of my ideas for the world to know. I hope that some of these ideas will help us get more insights into understanding our world.
-          </p>
         </div>
 
-        <div class="p-4">
-          <h4 class="fst-italic">Archives</h4>
-          <ol class="list-unstyled mb-0">
-            <li><a href="#aievolution">April 2024</a></li>
-            <li><a href="#timearrow">March 2023</a></li>
-            <li><a href="#quantum_tunnel">September 2022</a></li>
-          </ol>
-        </div>
+        <div class="col-md-4">
+          <div class="position-sticky" style="top: 2rem">
+            <div class="p-4 mb-3 bg-light rounded">
+              <h4 class="fst-italic" id="about">About</h4>
+              <p class="mb-0">
+                Hi, I am an astrophysicist, data scientist, and entrepreneur
+                with a strong interest in fundamental problems in physics and
+                artificial general intelligence. Here, on this website, I keep a
+                chronological record of my ideas for the world to know. I hope
+                that some of these ideas will help us get more insights into
+                understanding our world.
+              </p>
+            </div>
 
-        <div class="p-4">
-          <h4 class="fst-italic">Publications</h4>
-          <ol class="list-styled">
-            <li><a href="published_work\apj_826_1_98.pdf">Investigation of Primordial Black Hole Bursts Using IPN GRBs (2016)</a></li>
-            <li><a href="published_work\wavelet_paper_2016.pdf">Integrating Temporal and Spectral Features of Astronomical Data Using Wavelet Analysis for Source Classification (2016)</a></li>
-            <li><a href="published_work\mnras_455_703.pdf">Investigation of redshift- and duration-dependent clustering of gamma-ray bursts (2016)</a></li>
-            <li><a href="published_work\pbh_obs_charateristics_paper.pdf">Primordial Black Holes: Observational characteristics of the final evaporation (2016)</a></li>
-            <li><a href="published_work\mnras_458_3821.pdf">Machine-z: rapid machine-learned redshift indicator for Swift gamma-ray bursts (2016)</a></li>
-            <li><a href="published_work\mnras_419_614.pdf">The lag–luminosity relation in the GRB source frame (2012)</a></li>
-            <li><a href="published_work\mnras_412_875.pdf">A new frequency–luminosity relation for long gamma-ray bursts? (2011)</a></li>
-            <li><a href="published_work\Graduate_Thesis_2011.pdf">Graduate Thesis (2011)</a></li>
-            <li><a href="published_work\mnras_406_548.pdf">An analytical approach for the determination of the luminosity distance in a flat universe with dark energy (2010)</a></li>
-            <li><a href="published_work\apj_711_2_1073.pdf">Spectral Lags and The Lag-Luminosity Relation (2010)</a></li>
-            <li><a href="published_work\Virtual_Internet_Personal_Computer_Paper_2002.pdf">Virtual Internet Personal Computer (2002)</a></li>
-            <li><a href="published_work\Virtual_Internet_Computer_Undergraduate_Dissertation_2001.pdf">Undergraduate Dissertation (2001)</a></li>
-          </ol>
-        </div>
+            <div class="p-4">
+              <h4 class="fst-italic">Archives</h4>
+              <ol class="list-unstyled mb-0">
+                <li><a href="#aievolution">April 2024</a></li>
+                <li><a href="#timearrow">March 2023</a></li>
+                <li><a href="#quantum_tunnel">September 2022</a></li>
+              </ol>
+            </div>
 
-        <div class="p-4">
-          <h4 class="fst-italic">Elsewhere</h4>
-          <ol class="list-unstyled">
-            <li><a href="https://github.com/tilanukwatta">GitHub</a></li>
-            <li><a href="https://www.linkedin.com/in/tilan-ukwatta-phd-8a639261">LinkedIn</a></li>
-          </ol>
+            <div class="p-4">
+              <h4 class="fst-italic">Publications</h4>
+              <ol class="list-styled">
+                <li>
+                  <a href="published_work\apj_826_1_98.pdf"
+                    >Investigation of Primordial Black Hole Bursts Using IPN
+                    GRBs (2016)</a
+                  >
+                </li>
+                <li>
+                  <a href="published_work\wavelet_paper_2016.pdf"
+                    >Integrating Temporal and Spectral Features of Astronomical
+                    Data Using Wavelet Analysis for Source Classification
+                    (2016)</a
+                  >
+                </li>
+                <li>
+                  <a href="published_work\mnras_455_703.pdf"
+                    >Investigation of redshift- and duration-dependent
+                    clustering of gamma-ray bursts (2016)</a
+                  >
+                </li>
+                <li>
+                  <a href="published_work\pbh_obs_charateristics_paper.pdf"
+                    >Primordial Black Holes: Observational characteristics of
+                    the final evaporation (2016)</a
+                  >
+                </li>
+                <li>
+                  <a href="published_work\mnras_458_3821.pdf"
+                    >Machine-z: rapid machine-learned redshift indicator for
+                    Swift gamma-ray bursts (2016)</a
+                  >
+                </li>
+                <li>
+                  <a href="published_work\mnras_419_614.pdf"
+                    >The lag–luminosity relation in the GRB source frame
+                    (2012)</a
+                  >
+                </li>
+                <li>
+                  <a href="published_work\mnras_412_875.pdf"
+                    >A new frequency–luminosity relation for long gamma-ray
+                    bursts? (2011)</a
+                  >
+                </li>
+                <li>
+                  <a href="published_work\Graduate_Thesis_2011.pdf"
+                    >Graduate Thesis (2011)</a
+                  >
+                </li>
+                <li>
+                  <a href="published_work\mnras_406_548.pdf"
+                    >An analytical approach for the determination of the
+                    luminosity distance in a flat universe with dark energy
+                    (2010)</a
+                  >
+                </li>
+                <li>
+                  <a href="published_work\apj_711_2_1073.pdf"
+                    >Spectral Lags and The Lag-Luminosity Relation (2010)</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="published_work\Virtual_Internet_Personal_Computer_Paper_2002.pdf"
+                    >Virtual Internet Personal Computer (2002)</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="published_work\Virtual_Internet_Computer_Undergraduate_Dissertation_2001.pdf"
+                    >Undergraduate Dissertation (2001)</a
+                  >
+                </li>
+              </ol>
+            </div>
+
+            <div class="p-4">
+              <h4 class="fst-italic">Elsewhere</h4>
+              <ol class="list-unstyled">
+                <li><a href="https://github.com/tilanukwatta">GitHub</a></li>
+                <li>
+                  <a
+                    href="https://www.linkedin.com/in/tilan-ukwatta-phd-8a639261"
+                    >LinkedIn</a
+                  >
+                </li>
+              </ol>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-  </div>
+    </main>
 
-</main>
-
-<footer class="blog-footer">
-  <p>&copy; Copyright 2024 tilanukwatta.com</p>
-  <p>
-    <a href="#">Back to top</a>
-  </p>
-</footer>
-
-
-    
+    <footer class="blog-footer">
+      <p>&copy; Copyright 2024 tilanukwatta.com</p>
+      <p>
+        <a href="#">Back to top</a>
+      </p>
+    </footer>
   </body>
 </html>
